@@ -29,8 +29,8 @@ const categoryCopy: Record<
     related: ['taco-vs-super-taco', 'order-tacos-like-a-local'],
   },
   'burritos-tortas': {
-    image: '/images/torta-with-jarritos-horchata.jpg',
-    imageAlt: 'Mexican torta served with Jarritos sodas and horchata at Juanito’s Tacos in Champaign-Urbana',
+    image: '/images/loaded-burrito.jpg',
+    imageAlt: 'A hearty loaded burrito with grilled meat, beans, rice and guacamole at Juanito’s Tacos in Champaign-Urbana',
     body: [
       'When you want a full meal in your hands, our burritos and tortas deliver. The Classic Burrito wraps your choice of meat with beans, rice, lettuce, tomato, onion, cheese and sour cream in a warm flour tortilla. It is hearty, satisfying and easy to take with you.',
       'Our tortas bring the flavor in Mexican sandwich form, pressed until warm with your choice of meat and fresh fixings. And if you want to know what makes the Pepe Burrito special, just ask at the stand.',

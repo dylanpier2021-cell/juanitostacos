@@ -92,13 +92,13 @@ export default function HomePage() {
             {featured.map((cat, i) => {
               const img = [
                 '/images/al-pastor-street-tacos-urbana.jpg',
-                '/images/torta-with-jarritos-horchata.jpg',
+                '/images/loaded-burrito.jpg',
                 '/images/loaded-nachos-asada-juanitos.jpg',
               ][i]
               const imgAlt = [
                 "Al pastor street tacos with cilantro and onion at Juanito's Tacos",
-                "Mexican torta served with Jarritos sodas and horchata at Juanito's Tacos",
-                "Loaded nachos with asada and melted cheese at Juanito's Tacos",
+                "A hearty loaded burrito with grilled meat, beans, rice and guacamole at Juanito's Tacos",
+                "Loaded nachos with melted cheese, meat and pico de gallo at Juanito's Tacos",
               ][i]
               return (
                 <li key={cat.slug} className="card group overflow-hidden">

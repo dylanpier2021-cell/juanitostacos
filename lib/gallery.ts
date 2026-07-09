@@ -30,9 +30,9 @@ export const galleryImages: GalleryImage[] = [
     caption: 'Fish tacos',
   },
   {
-    src: '/images/torta-with-jarritos-horchata.jpg',
-    alt: 'Mexican torta served with Jarritos sodas and a cup of horchata at Juanito’s Tacos',
-    caption: 'Torta with Jarritos and horchata',
+    src: '/images/loaded-burrito.jpg',
+    alt: 'A hearty loaded burrito cut open to show grilled meat, beans, rice and guacamole at Juanito’s Tacos',
+    caption: 'Loaded burrito',
   },
   {
     src: '/images/torta-cubana-juanitos-tacos.jpg',

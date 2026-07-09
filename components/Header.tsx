@@ -26,9 +26,9 @@ export function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-50 border-b border-black/5 bg-cream/95 backdrop-blur supports-[backdrop-filter]:bg-cream/80">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-charcoal/95 shadow-lg backdrop-blur supports-[backdrop-filter]:bg-charcoal/85">
       <div className="container-x flex h-20 items-center justify-between gap-4">
-        <Logo />
+        <Logo variant="onDark" />
 
         {/* Desktop nav */}
         <nav aria-label="Primary" className="hidden lg:block">
@@ -39,7 +39,7 @@ export function Header() {
                   href={link.href}
                   aria-current={isActive(link.href) ? 'page' : undefined}
                   className={`rounded-full px-4 py-2 text-base font-semibold transition-colors ${
-                    isActive(link.href) ? 'bg-taco/10 text-taco' : 'text-charcoal hover:bg-black/5'
+                    isActive(link.href) ? 'bg-white/10 text-masa' : 'text-cream/90 hover:bg-white/10 hover:text-white'
                   }`}
                 >
                   {link.label}
@@ -60,7 +60,7 @@ export function Header() {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className="grid h-11 w-11 place-items-center rounded-full text-charcoal hover:bg-black/5 lg:hidden"
+            className="grid h-11 w-11 place-items-center rounded-full text-cream hover:bg-white/10 lg:hidden"
             aria-expanded={open}
             aria-controls="mobile-nav"
             aria-label={open ? 'Close menu' : 'Open menu'}
@@ -85,13 +85,13 @@ export function Header() {
 
       {/* Mobile nav panel */}
       {open && (
-        <nav id="mobile-nav" aria-label="Primary mobile" className="border-t border-black/5 bg-cream lg:hidden">
+        <nav id="mobile-nav" aria-label="Primary mobile" className="border-t border-white/10 bg-charcoal lg:hidden">
           <ul className="container-x flex flex-col py-3">
             <li>
               <Link
                 href="/"
                 onClick={() => setOpen(false)}
-                className="block rounded-lg px-3 py-3 text-lg font-semibold hover:bg-black/5"
+                className="block rounded-lg px-3 py-3 text-lg font-semibold text-cream/90 hover:bg-white/10 hover:text-white"
               >
                 Home
               </Link>
@@ -102,8 +102,8 @@ export function Header() {
                   href={link.href}
                   onClick={() => setOpen(false)}
                   aria-current={isActive(link.href) ? 'page' : undefined}
-                  className={`block rounded-lg px-3 py-3 text-lg font-semibold hover:bg-black/5 ${
-                    isActive(link.href) ? 'text-taco' : ''
+                  className={`block rounded-lg px-3 py-3 text-lg font-semibold text-cream/90 hover:bg-white/10 hover:text-white ${
+                    isActive(link.href) ? 'text-masa' : ''
                   }`}
                 >
                   {link.label}
