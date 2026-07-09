@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Placeholder for a photo of a quesadilla with melted cheese">
+  <rect width="1200" height="900" fill="#F2A900"/>
+  <rect x="40" y="40" width="1120" height="820" fill="none" stroke="#1A1A1A" stroke-width="5" stroke-dasharray="18 14" rx="24" opacity="0.5"/>
+  <g transform="translate(600 330)">
+    <path d="M-170 70 L0 -110 L170 70 Z" fill="#FFF8F0" stroke="#1A1A1A" stroke-width="4"/>
+    <circle cx="-40" cy="30" r="10" fill="#C8102E"/><circle cx="35" cy="20" r="10" fill="#5A8F29"/><circle cx="0" cy="45" r="9" fill="#8a2d0e"/>
+  </g>
+  <text x="600" y="560" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="800" fill="#1A1A1A">PLACEHOLDER</text>
+  <text x="600" y="625" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" fill="#1A1A1A">Quesadilla with melted cheese</text>
+  <text x="600" y="690" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="#C8102E">Swap with a real photo</text>
+</svg>

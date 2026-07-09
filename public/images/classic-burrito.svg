@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Placeholder for a photo of a classic burrito">
+  <rect width="1200" height="900" fill="#8a2d0e"/>
+  <rect x="40" y="40" width="1120" height="820" fill="none" stroke="#FFF8F0" stroke-width="5" stroke-dasharray="18 14" rx="24" opacity="0.8"/>
+  <g transform="translate(600 340) rotate(-18)">
+    <rect x="-190" y="-46" width="380" height="92" rx="46" fill="#FFF8F0" stroke="#1A1A1A" stroke-width="4"/>
+    <rect x="-150" y="-40" width="60" height="80" rx="8" fill="#F2A900" opacity="0.7"/>
+  </g>
+  <text x="600" y="560" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="800" fill="#FFF8F0">PLACEHOLDER</text>
+  <text x="600" y="625" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" fill="#FFF8F0">Classic burrito</text>
+  <text x="600" y="690" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="#F2A900">Swap with a real photo</text>
+</svg>

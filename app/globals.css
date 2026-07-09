@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-charcoal font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-bold tracking-tight text-charcoal;
+    text-wrap: balance;
+  }
+
+  /* Visible, high-contrast focus ring for keyboard users on every focusable element. */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  [tabindex]:focus-visible,
+  summary:focus-visible {
+    @apply outline-none ring-4 ring-masa/70 ring-offset-2 ring-offset-cream rounded-sm;
+  }
+
+  :target {
+    scroll-margin-top: 6rem;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-14 sm:py-20;
+  }
+
+  /* Buttons ------------------------------------------------------------------ */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-semibold font-display leading-none transition-colors duration-150 min-h-[48px];
+  }
+
+  .btn-primary {
+    @apply btn bg-taco text-white hover:bg-taco-dark;
+  }
+
+  .btn-secondary {
+    @apply btn bg-masa text-charcoal hover:bg-masa-dark;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-charcoal/20 bg-white text-charcoal hover:border-taco hover:text-taco;
+  }
+
+  .btn-ghost {
+    @apply btn bg-white/10 text-white ring-1 ring-inset ring-white/40 hover:bg-white/20;
+  }
+
+  /* Cards -------------------------------------------------------------------- */
+  .card {
+    @apply rounded-2xl bg-white shadow-card ring-1 ring-black/5;
+  }
+
+  /* A little eyebrow label used above section headings. */
+  .eyebrow {
+    @apply inline-block text-sm font-bold uppercase tracking-widest text-taco;
+  }
+
+  /* Simple decorative divider used in a few places. */
+  .rule-masa {
+    @apply h-1 w-16 rounded-full bg-masa;
+  }
+}
+
+@layer utilities {
+  /* Screen-reader-only text (accessible labels that stay visually hidden). */
+  .sr-only-focusable:focus {
+    @apply not-sr-only fixed left-4 top-4 z-[100] rounded-md bg-charcoal px-4 py-2 text-white;
+  }
+}
