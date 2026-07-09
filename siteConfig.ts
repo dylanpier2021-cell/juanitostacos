@@ -61,8 +61,9 @@ export const siteConfig = {
   description:
     "Juanito's Tacos serves authentic Mexican street food from a friendly walk-up stand in Urbana, Illinois. Tacos, super tacos, fish tacos, quesadillas, burritos, tortas and nachos made fresh every day.",
 
-  // Final domain: confirm before launch. Used for canonical URLs and sitemap.
-  url: 'https://juanitostacos.com', // PLACEHOLDER: confirm final domain
+  // Production domain (attached to the Vercel project). Used for canonical URLs,
+  // sitemap and structured data. Change here if the final domain differs.
+  url: 'https://juanitostacostruck.com',
 
   // Contact / NAP
   phone: '(217) 621-1394',

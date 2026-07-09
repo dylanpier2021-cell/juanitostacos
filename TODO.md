@@ -20,8 +20,8 @@ Everything below is either a placeholder or an assumption in the current build. 
   - File: `siteConfig.ts` (`geo`)
 - [ ] **Instagram / TikTok handles** — paste real URLs and remove `placeholder: true`.
   - File: `siteConfig.ts` (`social`)
-- [ ] **Final domain** — set the real domain (used for canonical URLs, sitemap, structured data).
-  - File: `siteConfig.ts` (`url`)
+- [x] **Final domain** — set to `https://juanitostacostruck.com` (the domain attached to the Vercel project). Change `siteConfig.ts` `url` if this is not the intended final domain.
+  - [ ] **DNS**: point the domain at Vercel in Cloudflare — add `A juanitostacostruck.com -> 76.76.21.21` and `CNAME www -> cname.vercel-dns.com`. Until then the site will not resolve publicly.
 - [ ] **Online ordering (DoorDash / Uber Eats / Grubhub)** — currently OFF per request. Decide whether to add "Order Online" CTAs. If yes, paste links and set `ordering.enabled: true`.
   - File: `siteConfig.ts` (`ordering`)
 
