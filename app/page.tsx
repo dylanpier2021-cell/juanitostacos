@@ -65,15 +65,17 @@ export default function HomePage() {
           </div>
 
           <div className="relative">
-            <Img
-              src="/images/hero-street-tacos-urbana.svg"
-              alt="Fresh Mexican street tacos with cilantro and onion from Juanito's Tacos in Urbana, Illinois"
-              width={1600}
-              height={1000}
-              priority
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="w-full rounded-3xl shadow-2xl ring-1 ring-white/10"
-            />
+            <div className="aspect-[4/5] overflow-hidden rounded-3xl shadow-2xl ring-1 ring-white/10 sm:aspect-[3/2] lg:aspect-[4/5]">
+              <Img
+                src="/images/asada-tacos-avocado-urbana.jpg"
+                alt="Asada street tacos topped with sliced avocado and fresh salsa from Juanito's Tacos in Urbana, Illinois"
+                width={1200}
+                height={1500}
+                priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -88,14 +90,23 @@ export default function HomePage() {
           />
           <ul className="mt-10 grid gap-6 md:grid-cols-3">
             {featured.map((cat, i) => {
-              const img = ['/images/street-tacos-al-pastor.svg', '/images/classic-burrito.svg', '/images/quesadilla-melted-cheese.svg'][i]
+              const img = [
+                '/images/al-pastor-street-tacos-urbana.jpg',
+                '/images/torta-with-jarritos-horchata.jpg',
+                '/images/loaded-nachos-asada-juanitos.jpg',
+              ][i]
+              const imgAlt = [
+                "Al pastor street tacos with cilantro and onion at Juanito's Tacos",
+                "Mexican torta served with Jarritos sodas and horchata at Juanito's Tacos",
+                "Loaded nachos with asada and melted cheese at Juanito's Tacos",
+              ][i]
               return (
                 <li key={cat.slug} className="card group overflow-hidden">
                   <Link href={`/menu/${cat.slug}`} className="block">
                     <div className="aspect-[4/3] overflow-hidden">
                       <Img
                         src={img}
-                        alt={`${cat.name} at Juanito's Tacos`}
+                        alt={imgAlt}
                         width={1200}
                         height={900}
                         sizes="(max-width: 768px) 100vw, 33vw"

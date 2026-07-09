@@ -19,15 +19,12 @@ export default function GalleryPage() {
       <PageHero
         kicker="Feast your eyes"
         title="Gallery"
-        intro="A taste of what is waiting for you at the stand. These are placeholder images for now, ready to be swapped for real photos of our food and family."
+        intro="A taste of what is waiting for you at the stand. Real tacos, tortas, quesadillas, nachos and street corn, made fresh every day in Urbana."
       />
       <Breadcrumbs crumbs={[{ name: 'Home', path: '/' }, { name: 'Gallery', path: '/gallery' }]} />
 
       <section className="section">
         <div className="container-x">
-          <p className="mb-8 rounded-xl border-2 border-dashed border-lime/60 bg-lime/5 px-4 py-3 text-center text-sm font-semibold text-lime">
-            Placeholder images shown. Swap in real photos of the food and the stand before launch. See README.
-          </p>
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {galleryImages.map((image) => (
               <li key={image.src} className="card overflow-hidden">

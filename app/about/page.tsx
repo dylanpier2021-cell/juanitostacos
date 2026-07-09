@@ -34,14 +34,16 @@ export default function AboutPage() {
 
       <section className="section">
         <div className="container-x grid gap-12 lg:grid-cols-2 lg:items-center">
-          <Img
-            src="/images/family-making-tacos.svg"
-            alt="The family behind Juanito's Tacos preparing fresh Mexican street food at the stand in Urbana"
-            width={1200}
-            height={900}
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            className="w-full rounded-2xl shadow-card"
-          />
+          <div className="aspect-[4/5] overflow-hidden rounded-2xl shadow-card sm:aspect-square lg:aspect-[4/5]">
+            <Img
+              src="/images/juanitos-tacos-chef.jpg"
+              alt="The chef at Juanito's Tacos, serving authentic Mexican street food in Urbana, Illinois"
+              width={1080}
+              height={1350}
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="h-full w-full object-cover"
+            />
+          </div>
           <div className="space-y-4 text-lg leading-relaxed text-charcoal/80">
             <h2 className="text-3xl font-bold text-charcoal">Why we do this</h2>
             <div className="rule-masa" />
@@ -94,14 +96,16 @@ export default function AboutPage() {
       <section className="section">
         <div className="container-x">
           <div className="card grid gap-8 p-8 lg:grid-cols-2 lg:items-center">
-            <Img
-              src="/images/juanitos-food-truck-urbana.svg"
-              alt="The Juanito's Tacos walk-up stand on N Cunningham Ave in Urbana, Illinois"
-              width={1200}
-              height={900}
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="w-full rounded-2xl"
-            />
+            <div className="aspect-[4/3] overflow-hidden rounded-2xl">
+              <Img
+                src="/images/juanitos-tacos-food-truck-urbana.jpg"
+                alt="The bright green Juanito's Tacos food truck serving Mexican street food in Urbana, Illinois"
+                width={1600}
+                height={1200}
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="h-full w-full object-cover"
+              />
+            </div>
             <div>
               <h2 className="text-2xl font-bold">Come say hello</h2>
               <p className="mt-3 text-charcoal/75">

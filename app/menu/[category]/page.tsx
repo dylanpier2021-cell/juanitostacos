@@ -19,8 +19,8 @@ const categoryCopy: Record<
   { image: string; imageAlt: string; body: string[]; related: string[] }
 > = {
   tacos: {
-    image: '/images/street-tacos-al-pastor.svg',
-    imageAlt: 'Al pastor street tacos with cilantro and onion on corn tortillas at Juanito’s Tacos in Urbana',
+    image: '/images/asada-tacos-avocado-urbana.jpg',
+    imageAlt: 'Asada street tacos topped with sliced avocado and fresh salsa at Juanito’s Tacos in Urbana',
     body: [
       'Tacos are the heart of everything we do. We keep them the authentic street way: a warm corn tortilla, your choice of meat cooked to order, and a simple finish that lets the flavor shine. Whether you are a longtime taco lover or trying real street tacos for the first time, we will set you up right.',
       'Order our 4 Tacos plate when you want it classic, with fresh cilantro and onion. Go with the 3 Super Tacos when you are hungry and want them loaded with lettuce, tomato, cheese, onion and sour cream. Craving something lighter and bright? The 3 Fish Tacos come with pico de gallo and our creamy chipotle mayo.',
@@ -29,8 +29,8 @@ const categoryCopy: Record<
     related: ['taco-vs-super-taco', 'order-tacos-like-a-local'],
   },
   'burritos-tortas': {
-    image: '/images/classic-burrito.svg',
-    imageAlt: 'Classic burrito filled with meat, beans, rice and fresh toppings at Juanito’s Tacos',
+    image: '/images/torta-with-jarritos-horchata.jpg',
+    imageAlt: 'Mexican torta served with Jarritos sodas and horchata at Juanito’s Tacos in Champaign-Urbana',
     body: [
       'When you want a full meal in your hands, our burritos and tortas deliver. The Classic Burrito wraps your choice of meat with beans, rice, lettuce, tomato, onion, cheese and sour cream in a warm flour tortilla. It is hearty, satisfying and easy to take with you.',
       'Our tortas bring the flavor in Mexican sandwich form, pressed until warm with your choice of meat and fresh fixings. And if you want to know what makes the Pepe Burrito special, just ask at the stand.',
@@ -39,8 +39,8 @@ const categoryCopy: Record<
     related: ['evening-eats-champaign-urbana', 'order-tacos-like-a-local'],
   },
   'quesadillas-nachos': {
-    image: '/images/quesadilla-melted-cheese.svg',
-    imageAlt: 'Grilled quesadilla with melted cheese and choice of meat at Juanito’s Tacos',
+    image: '/images/loaded-nachos-avocado.jpg',
+    imageAlt: 'Loaded nachos with meat, melted cheese, avocado and pico de gallo at Juanito’s Tacos',
     body: [
       'Cheese lovers, this one is for you. Our quesadilla is a grilled flour tortilla folded over your choice of meat and plenty of melted cheese, simple and always satisfying. It is a favorite with kids and grown-ups alike.',
       'Feeding a group or watching the game? Our nachos pile crisp tortilla chips with meat, melted cheese, beans, jalapenos, sour cream and pico de gallo. They are made to share, though we will not judge if you keep them all to yourself.',
@@ -83,14 +83,14 @@ export default function MenuCategoryPage({ params }: { params: Params }) {
 
       <article className="section">
         <div className="container-x grid gap-10 lg:grid-cols-2 lg:items-start">
-          <div>
+          <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-card">
             <Img
               src={copy.image}
               alt={copy.imageAlt}
               width={1200}
               height={900}
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="w-full rounded-2xl shadow-card"
+              className="h-full w-full object-cover"
             />
           </div>
           <div className="space-y-4 text-lg leading-relaxed text-charcoal/80">

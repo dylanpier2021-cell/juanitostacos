@@ -66,11 +66,11 @@ Because the whole site reads from these few places, you can re-skin it for anoth
 
 ---
 
-## Swapping in real photos
+## Photos
 
-The site ships with clearly-labeled **branded placeholder images** (SVG) so it looks intentional and loads fast, with **zero copyright risk**.
+The site uses **real, optimized photos** of the food, the truck and the kitchen, in `public/images/` (descriptive filenames, alt text, EXIF-rotation-corrected, compressed for fast loads). The full-size originals live in `assets/` (gitignored, kept locally, not deployed).
 
-To use real photos:
+To add or swap photos:
 
 1. Drop your `.jpg`, `.png` or `.webp` files into [`public/images/`](./public/images/). Use descriptive, keyword-aware filenames, for example `al-pastor-street-tacos-urbana.jpg`.
 2. Update the `src`, `alt` and `caption` in [`lib/gallery.ts`](./lib/gallery.ts), and the image `src`/`alt` used in the home, about and menu pages.
