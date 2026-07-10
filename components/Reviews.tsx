@@ -28,7 +28,7 @@ export function Reviews({ withHeading = true }: { withHeading?: boolean }) {
             eyebrow="Kind words"
             title="What people say"
             align="center"
-            intro="Real reviews from real neighbors are on the way. Add yours by finding us on Facebook."
+            intro="Here is what our neighbors across Champaign-Urbana say about Juanito's Tacos. Come see for yourself."
           />
         )}
         <h2 id="reviews-heading" className="sr-only">

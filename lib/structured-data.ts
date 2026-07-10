@@ -70,21 +70,23 @@ export function restaurantSchema() {
   if (sameAs.length) data.sameAs = sameAs
 
   if (reviews.publishSchema && reviews.items.length) {
-    const ratings = reviews.items.map((r) => r.rating)
-    const avg = ratings.reduce((a, b) => a + b, 0) / ratings.length
-    data.aggregateRating = {
-      '@type': 'AggregateRating',
-      ratingValue: avg.toFixed(1),
-      reviewCount: reviews.items.length,
-      bestRating: 5,
-      worstRating: 1,
-    }
     data.review = reviews.items.map((r) => ({
       '@type': 'Review',
       author: { '@type': 'Person', name: r.author },
       reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
       reviewBody: r.body,
     }))
+    // Only publish an overall score when the real Google numbers are provided,
+    // so we never emit a misleading aggregate from a hand-picked subset.
+    if (reviews.aggregate) {
+      data.aggregateRating = {
+        '@type': 'AggregateRating',
+        ratingValue: reviews.aggregate.ratingValue.toFixed(1),
+        reviewCount: reviews.aggregate.reviewCount,
+        bestRating: 5,
+        worstRating: 1,
+      }
+    }
   }
 
   return data
