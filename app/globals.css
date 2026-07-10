@@ -15,7 +15,9 @@
   h2,
   h3,
   h4 {
-    @apply font-display font-bold tracking-tight text-charcoal;
+    /* Inherit color from the section (charcoal on light pages, cream/white on
+       dark hero and CTA bands) instead of forcing a single color. */
+    @apply font-display font-bold tracking-tight;
     text-wrap: balance;
   }
 

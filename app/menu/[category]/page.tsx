@@ -19,8 +19,8 @@ const categoryCopy: Record<
   { image: string; imageAlt: string; body: string[]; related: string[] }
 > = {
   tacos: {
-    image: '/images/asada-tacos-avocado-urbana.jpg',
-    imageAlt: 'Asada street tacos topped with sliced avocado and fresh salsa at Juanito’s Tacos in Urbana',
+    image: '/images/al-pastor-street-tacos-urbana.jpg',
+    imageAlt: 'Authentic Mexican street tacos with fresh salsa, cilantro, onion and lime at Juanito’s Tacos in Urbana',
     body: [
       'Tacos are the heart of everything we do. We keep them the authentic street way: a warm corn tortilla, your choice of meat cooked to order, and a simple finish that lets the flavor shine. Whether you are a longtime taco lover or trying real street tacos for the first time, we will set you up right.',
       'Order our 4 Tacos plate when you want it classic, with fresh cilantro and onion. Go with the 3 Super Tacos when you are hungry and want them loaded with lettuce, tomato, cheese, onion and sour cream. Craving something lighter and bright? The 3 Fish Tacos come with pico de gallo and our creamy chipotle mayo.',

@@ -65,12 +65,12 @@ export default function HomePage() {
           </div>
 
           <div className="relative">
-            <div className="aspect-[4/5] overflow-hidden rounded-3xl shadow-2xl ring-1 ring-white/10 sm:aspect-[3/2] lg:aspect-[4/5]">
+            <div className="aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl ring-1 ring-white/10">
               <Img
-                src="/images/asada-tacos-avocado-urbana.jpg"
-                alt="Asada street tacos topped with sliced avocado and fresh salsa from Juanito's Tacos in Urbana, Illinois"
-                width={1200}
-                height={1500}
+                src="/images/hero-street-tacos.jpg"
+                alt="Fresh Mexican street tacos with cilantro, onion, salsa and lime from Juanito's Tacos in Urbana, Illinois"
+                width={1600}
+                height={1067}
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="h-full w-full object-cover"

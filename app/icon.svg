@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Juanito's Tacos">
-  <rect width="64" height="64" rx="14" fill="#C8102E"/>
-  <path d="M14 42 A18 18 0 0 1 50 42 L50 44 A3 3 0 0 1 47 47 L17 47 A3 3 0 0 1 14 44 Z" fill="#F2A900" stroke="#1A1A1A" stroke-width="2"/>
-  <circle cx="24" cy="40" r="3.4" fill="#5A8F29"/>
-  <circle cx="33" cy="41.5" r="3.4" fill="#FFF8F0"/>
-  <circle cx="41" cy="40" r="3.2" fill="#5A8F29"/>
-</svg>

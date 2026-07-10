@@ -16,13 +16,8 @@ export type GalleryImage = {
 export const galleryImages: GalleryImage[] = [
   {
     src: '/images/al-pastor-street-tacos-urbana.jpg',
-    alt: 'Al pastor street tacos with cilantro and onion on corn tortillas at Juanito’s Tacos in Urbana',
-    caption: 'Al pastor street tacos',
-  },
-  {
-    src: '/images/asada-tacos-avocado-urbana.jpg',
-    alt: 'Asada street tacos topped with sliced avocado and fresh salsa at Juanito’s Tacos',
-    caption: 'Asada tacos with avocado',
+    alt: 'Authentic Mexican street tacos with fresh salsa, cilantro and lime at Juanito’s Tacos in Urbana',
+    caption: 'Authentic street tacos',
   },
   {
     src: '/images/fish-tacos-pico-de-gallo-chipotle.jpg',

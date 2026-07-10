@@ -140,7 +140,7 @@ export function articleSchema(input: {
       '@type': 'Organization',
       name: siteConfig.name,
       url: siteConfig.url,
-      logo: { '@type': 'ImageObject', url: absoluteUrl('/icon.svg') },
+      logo: { '@type': 'ImageObject', url: absoluteUrl('/images/logo-badge.png') },
     },
   }
 }
