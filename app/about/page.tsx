@@ -9,18 +9,9 @@ import { FinalCTA } from '@/components/FinalCTA'
 export const metadata: Metadata = pageMeta({
   title: "About Us | Juanito's Tacos, Urbana IL",
   description:
-    'Meet the family behind Juanito’s Tacos in Urbana, IL. Learn why we cook real Mexican street food, made fresh every day, and what makes our tacos different.',
+    'Meet Jose Rodriguez and the family behind Juanito’s Tacos in Urbana, IL. Real Mexican street food, made fresh to order every day from our green food truck.',
   path: '/about',
 })
-
-// Clearly-labeled placeholder for the box explaining what still needs confirming.
-function PlaceholderNote({ children }: { children: React.ReactNode }) {
-  return (
-    <p className="rounded-xl border-2 border-dashed border-lime/60 bg-lime/5 px-4 py-3 text-sm font-semibold text-lime">
-      {children}
-    </p>
-  )
-}
 
 export default function AboutPage() {
   return (
@@ -57,10 +48,12 @@ export default function AboutPage() {
               proud to hand you. When you order from us, you are not a number in a drive-through line. You are a guest
               at our table.
             </p>
-            <PlaceholderNote>
-              Placeholder: add the owner’s real name and the true family story here once confirmed. Do not invent
-              details. See README for the client checklist.
-            </PlaceholderNote>
+            <p>
+              The truck is run by <strong>Jose Rodriguez</strong>, our executive chef, together with{' '}
+              <strong>Rocio Hernandez</strong> and his crew. They are a tight, well-organized team who are big on
+              having fun and on doing the job the right way, and the whole family stays involved. What ties it all
+              together is a genuine passion for cooking.
+            </p>
           </div>
         </div>
       </section>
@@ -86,7 +79,8 @@ export default function AboutPage() {
             <div className="card p-7">
               <h3 className="text-xl font-bold text-taco">A family that cares</h3>
               <p className="mt-3 text-charcoal/75">
-                We treat every guest like a neighbor, because most of you are. Your first visit will not be your last.
+                We treat every guest like a neighbor, because most of you are. Every item on the menu can be made
+                vegetarian, so there is something here for everybody.
               </p>
             </div>
           </div>
@@ -114,8 +108,8 @@ export default function AboutPage() {
                 taco or your fiftieth, we are glad you are here.
               </p>
               <p className="mt-4 text-charcoal/75">
-                We are proud to be a small, family-run business. We have kept the placeholders on this page honest on
-                purpose, because we would rather earn your trust than make things up.
+                We are proud to be a small, family-run business, and we are proud of the community that has grown up
+                around this truck. Catering is available too, so if you are feeding a crowd, just ask.
               </p>
             </div>
           </div>

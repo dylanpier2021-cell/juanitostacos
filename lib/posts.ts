@@ -41,16 +41,16 @@ export const posts: BlogPost[] = [
 
 <h2>The classic street taco</h2>
 <p>A street taco is Mexican street food in its purest form. At Juanito's Tacos, that means a warm corn tortilla, your choice of meat, and a simple finish of fresh chopped cilantro and onion. That is it. No lettuce, no sour cream, no pile of extras getting in the way.</p>
-<p>The point of a street taco is to let the meat shine. When you order al pastor, asada or carnitas the classic way, you taste the marinade, the char and the seasoning without anything competing with it. A squeeze of lime and a little salsa, and you have the exact taco you would find from a good stand in Mexico. Our <a href="/menu/tacos">4 Tacos plate</a> is built on this idea, and it is what a lot of our regulars order every single time.</p>
+<p>The point of a street taco is to let the meat shine. When you order pastor, steak or chorizo the classic way, you taste the marinade, the char and the seasoning without anything competing with it. A squeeze of lime and a little salsa, and you have the exact taco you would find from a good stand in Mexico. Our <a href="/menu/tacos">4 Tacos plate</a> is built on this idea, and it is what a lot of our regulars order every single time.</p>
 
 <h2>The super taco</h2>
 <p>A super taco takes that same great meat and loads it up. Ours comes with lettuce, tomato, cheese, onion and sour cream on top of your choice of meat. It is closer to a full little meal in taco form, and it eats heartier than the street version.</p>
-<p>If you are hungry, new to Mexican street food, or you just love a fully dressed taco, the super taco is your friend. The cool, creamy toppings balance a rich meat like carnitas beautifully, and the extra cheese and sour cream make it feel like a treat. Our <a href="/menu/tacos">3 Super Tacos plate</a> is the go-to for anyone who wants more in every bite.</p>
+<p>If you are hungry, new to Mexican street food, or you just love a fully dressed taco, the super taco is your friend. The cool, creamy toppings balance a rich meat like chorizo beautifully, and the extra cheese and sour cream make it feel like a treat. Our <a href="/menu/tacos">3 Super Tacos plate</a> is the go-to for anyone who wants more in every bite.</p>
 
 <h2>Street taco vs super taco: a quick comparison</h2>
 <ul>
 <li><strong>Street taco:</strong> corn tortilla, meat, cilantro and onion. Clean, classic, meat-forward. You get four on our plate.</li>
-<li><strong>Super taco:</strong> corn tortilla, meat, lettuce, tomato, cheese, onion and sour cream. Loaded, hearty, closer to a full meal. You get three on our plate.</li>
+<li><strong>Super taco:</strong> corn tortilla, meat, lettuce, tomatoes, cilantro, onion, cheese and sour cream. Loaded, hearty, closer to a full meal. You get three on our plate.</li>
 </ul>
 <p>Notice that the plates are priced the same. You get four of the simple ones or three of the loaded ones, because the super tacos take more to build. Either way you are getting a satisfying plate for the money.</p>
 
@@ -94,7 +94,7 @@ export const posts: BlogPost[] = [
 </ul>
 
 <h2>Where street tacos fit in</h2>
-<p>For an early dinner that feels like a treat but eats like a normal meal, it is hard to beat street food. Our <a href="/menu/tacos">tacos</a> come with your choice of al pastor, asada, pollo, carnitas and more, and you can go simple with cilantro and onion or loaded up as a super taco. Add a quesadilla for the kids and a burrito for yourself, and dinner is handled.</p>
+<p>For an early dinner that feels like a treat but eats like a normal meal, it is hard to beat street food. Our <a href="/menu/tacos">tacos</a> come with your choice of steak, pastor, chorizo or chicken, and you can go simple with cilantro and onion or loaded up as a super taco. Add a quesadilla for the kids and a burrito for yourself, and dinner is handled.</p>
 <p>We are based in Urbana on North Cunningham Avenue and we happily feed folks from <a href="/locations/champaign">Champaign</a>, <a href="/locations/savoy">Savoy</a> and the surrounding towns. If your evening runs through our side of town, we are an easy stop.</p>
 
 <h2>Make us your weeknight answer</h2>

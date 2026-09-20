@@ -157,12 +157,17 @@ export function menuSchema() {
     hasMenuSection: siteConfig.menu.map((cat) => ({
       '@type': 'MenuSection',
       name: cat.name,
-      hasMenuItem: cat.items.map((item) => ({
-        '@type': 'MenuItem',
-        name: item.name,
-        description: item.description,
-        offers: { '@type': 'Offer', price: item.price.replace(/[^0-9.]/g, ''), priceCurrency: 'USD' },
-      })),
+      hasMenuItem: cat.items.map((item) => {
+        const price = item.price.replace(/[^0-9.]/g, '')
+        return {
+          '@type': 'MenuItem',
+          name: item.name,
+          description: item.description,
+          // Only advertise a price when we actually have one, so we never
+          // publish an empty or invented Offer.
+          ...(price ? { offers: { '@type': 'Offer', price, priceCurrency: 'USD' } } : {}),
+        }
+      }),
     })),
   }
 }

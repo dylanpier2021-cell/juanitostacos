@@ -23,8 +23,8 @@ const categoryCopy: Record<
     imageAlt: 'Authentic Mexican street tacos with fresh salsa, cilantro, onion and lime at Juanito’s Tacos in Urbana',
     body: [
       'Tacos are the heart of everything we do. We keep them the authentic street way: a warm corn tortilla, your choice of meat cooked to order, and a simple finish that lets the flavor shine. Whether you are a longtime taco lover or trying real street tacos for the first time, we will set you up right.',
-      'Order our 4 Tacos plate when you want it classic, with fresh cilantro and onion. Go with the 3 Super Tacos when you are hungry and want them loaded with lettuce, tomato, cheese, onion and sour cream. Craving something lighter and bright? The 3 Fish Tacos come with pico de gallo and our creamy chipotle mayo.',
-      'Not sure which meat to pick? Mix and match across your tacos so you can taste a few. Al pastor and asada are crowd favorites, and the lengua is a local move for anyone who knows.',
+      'Order our 4 Tacos plate when you want it classic, with fresh cilantro and onion. Go with the 3 Super Tacos when you are hungry and want them loaded with lettuce, tomatoes, cilantro, onion, cheese and sour cream. Craving something lighter and bright? The 3 Fish Tacos come with pico de gallo, lettuce and chipotle mayo, and our 3 Breakfast Tacos bring chorizo or ham with cheese and eggs.',
+      'Not sure which meat to pick? Mix and match across your tacos so you can taste a few. Pastor and steak are the crowd favorites, and chorizo is the move if you like a little more spice. Every item can be made vegetarian, so just say the word.',
     ],
     related: ['taco-vs-super-taco', 'order-tacos-like-a-local'],
   },
@@ -32,8 +32,8 @@ const categoryCopy: Record<
     image: '/images/loaded-burrito.jpg',
     imageAlt: 'A hearty loaded burrito with grilled meat, beans, rice and guacamole at Juanito’s Tacos in Champaign-Urbana',
     body: [
-      'When you want a full meal in your hands, our burritos and tortas deliver. The Classic Burrito wraps your choice of meat with beans, rice, lettuce, tomato, onion, cheese and sour cream in a warm flour tortilla. It is hearty, satisfying and easy to take with you.',
-      'Our tortas bring the flavor in Mexican sandwich form, pressed until warm with your choice of meat and fresh fixings. And if you want to know what makes the Pepe Burrito special, just ask at the stand.',
+      'When you want a full meal in your hands, our burritos and tortas deliver. Our burrito wraps your choice of meat with beans, cheese, rice, lettuce, tomatoes, onion and sour cream in a warm flour tortilla. It is hearty, satisfying and easy to take with you.',
+      'Our tortas bring the flavor in Mexican sandwich form, pressed until warm with beans, cheese, lettuce, tomatoes, jalapeño, onion and mayo. The Torta Cubana stacks it even higher with milaneza, ham, hot dog, chorizo and eggs. And the Pepe Burrito is the one people come back for: hecho con amor, big enough for two, with steak, pastor, chorizo and chicken all in the same burrito.',
       'Burritos and tortas travel well, which makes them perfect for taking back to work, campus or home. Call ahead and yours will be ready to grab and go.',
     ],
     related: ['evening-eats-champaign-urbana', 'order-tacos-like-a-local'],
@@ -42,8 +42,8 @@ const categoryCopy: Record<
     image: '/images/loaded-nachos-avocado.jpg',
     imageAlt: 'Loaded nachos with meat, melted cheese, avocado and pico de gallo at Juanito’s Tacos',
     body: [
-      'Cheese lovers, this one is for you. Our quesadilla is a grilled flour tortilla folded over your choice of meat and plenty of melted cheese, simple and always satisfying. It is a favorite with kids and grown-ups alike.',
-      'Feeding a group or watching the game? Our nachos pile crisp tortilla chips with meat, melted cheese, beans, jalapenos, sour cream and pico de gallo. They are made to share, though we will not judge if you keep them all to yourself.',
+      'Cheese lovers, this one is for you. Our quesadillas are grilled flour tortillas folded over your choice of meat and plenty of melted cheese, served with lettuce, tomatoes, onions and sour cream. They are a favorite with kids and grown-ups alike.',
+      'Feeding a group or watching the game? Our nachos pile corn tortilla chips with your choice of meat, beans, nacho cheese, lettuce, tomatoes, onions and jalapeños. They are made to share, though we will not judge if you keep them all to yourself. Add a cup of Mexican street corn with mayonnaise, cheese, chili powder and lime while you are at it.',
       'Both are easy to make vegetarian: just ask us to build them with beans and cheese instead of meat, and we will take care of you.',
     ],
     related: ['vegetarian-gluten-free-tacos', 'evening-eats-champaign-urbana'],

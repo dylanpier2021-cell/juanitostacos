@@ -23,7 +23,7 @@ export default function MenuPage() {
       <PageHero
         kicker="Made fresh daily"
         title="Our Menu"
-        intro="Real Mexican street food, cooked to order. Pick your meat, then keep it classic or load it up. Prices shown are current placeholders you can confirm with us at the stand."
+        intro="Real Mexican street food, cooked to order. Pick your meat, then keep it classic or load it up. Every item can be made vegetarian."
       />
       <Breadcrumbs crumbs={[{ name: 'Home', path: '/' }, { name: 'Menu', path: '/menu' }]} />
 
@@ -64,9 +64,7 @@ export default function MenuPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-lime">
-              Placeholder list — confirm the full meat selection and spellings
-            </p>
+            <p className="mt-4 font-semibold text-charcoal/75">{siteConfig.vegetarianNote}</p>
           </section>
         </div>
       </div>

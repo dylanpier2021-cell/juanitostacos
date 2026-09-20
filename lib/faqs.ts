@@ -26,15 +26,15 @@ export const faqs: FaqItem[] = [
   },
   {
     question: 'What meats can I choose from?',
-    answer: `Popular choices include ${siteConfig.meats
-      .slice(0, 5)
-      .map((m) => m.name)
-      .join(', ')} and more. Ask at the stand for the full list of what is fresh that day.`,
+    answer: `Your choice of ${siteConfig.meats
+      .slice(0, 4)
+      .map((m) => m.name.toLowerCase())
+      .join(', ')} on any item. The Torta Cubana and our breakfast items also bring in milaneza, ham, hot dog and eggs. ${siteConfig.vegetarianNote}`,
   },
   {
     question: 'Do you have vegetarian options?',
     answer:
-      'Yes. We can build quesadillas, burritos, nachos and tacos with beans, cheese, rice and fresh toppings instead of meat. Just let us know when you order and we will put something together for you.',
+      'Yes. Every item on our menu can be made vegetarian. We build quesadillas, burritos, nachos and tacos with beans, cheese, rice and fresh toppings instead of meat, and the Vegan Burrito comes with rice, beans, onion, tomato, lettuce and avocado. Just let us know when you order.',
   },
   {
     question: 'Are your tacos gluten-free?',
@@ -44,11 +44,11 @@ export const faqs: FaqItem[] = [
   {
     question: 'Do you take cards or is it cash only?',
     answer:
-      'PLACEHOLDER: confirm accepted payment methods (cash, card, mobile pay) with the client, then update this answer.',
+      'We take cash and Apple Pay at the window. If you are paying a large order or catering, give us a call ahead and we will sort it out with you.',
   },
   {
     question: 'Do you cater parties or events?',
-    answer: `We love feeding a crowd. Call us at ${siteConfig.phone} or send an email to ${siteConfig.email} with your date, headcount and location, and we will see what we can do.`,
+    answer: `We love feeding a crowd, and catering is available. Call us at ${siteConfig.phone} or ${siteConfig.phoneAlt}, or send an email to ${siteConfig.email} with your date, headcount and location, and we will see what we can do.`,
   },
   {
     question: 'Which towns do you serve?',

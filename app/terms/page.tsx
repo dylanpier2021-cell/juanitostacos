@@ -37,9 +37,9 @@ export default function TermsPage() {
 
           <h2>Menu, prices and hours</h2>
           <p>
-            Menu items, prices and hours shown here may change without notice and some are placeholders while the site is
-            being finalized. The prices and availability at the stand are the ones that apply. Hours can also change with
-            the weather, so please call {siteConfig.phone} if you want to confirm before visiting.
+            Menu items, prices and hours shown here may change without notice. The prices and availability at the
+            stand are the ones that apply. Hours can also change with the weather, so please call {siteConfig.phone}
+            if you want to confirm before visiting.
           </p>
 
           <h2>Intellectual property</h2>

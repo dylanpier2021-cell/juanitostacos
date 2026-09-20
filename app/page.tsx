@@ -30,7 +30,7 @@ const trustPoints = [
 
 const howToOrder = [
   { step: '1', title: 'Call or walk up', text: `Call ${siteConfig.phone} to order ahead, or just come see us at the stand.` },
-  { step: '2', title: 'Pick your meat', text: 'Choose al pastor, asada, pollo, carnitas and more, then go street style or super.' },
+  { step: '2', title: 'Pick your meat', text: 'Choose steak, pastor, chorizo or chicken, then go street style or super. Anything can be made vegetarian.' },
   { step: '3', title: 'Grab it hot', text: 'We cook it fresh and hand it over hot. That is the whole idea.' },
 ]
 

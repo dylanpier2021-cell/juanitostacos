@@ -27,9 +27,12 @@ export const reviews = {
   /** Real reviews below, so schema emission is on. */
   publishSchema: true,
 
-  /** PLACEHOLDER: fill with the real overall rating + count from Google to
-   *  enable the aggregate star rich result. Leave null to skip it. */
-  aggregate: null as { ratingValue: number; reviewCount: number } | null,
+  /** The real overall rating and review count from the Google Business Profile.
+   *  Update these when they drift; never round them in our favour. */
+  aggregate: { ratingValue: 4.0, reviewCount: 22 } as {
+    ratingValue: number
+    reviewCount: number
+  } | null,
 
   items: [
     {

@@ -34,7 +34,7 @@ Open [`siteConfig.ts`](./siteConfig.ts). It is the **single source of truth** fo
 
 Change it here and it updates **everywhere** on the site, so your Name / Address / Phone can never drift out of sync. That consistency matters a lot for local SEO and for matching your Google Business Profile.
 
-Anything that still needs client confirmation is marked with the word `PLACEHOLDER` in the code and shown with a green dashed note on the page. Search the project for `PLACEHOLDER` to find them all.
+Anything that still needs client confirmation is marked with the word `PLACEHOLDER` in the code. Search the project for `PLACEHOLDER` to find them all, and see [`TODO.md`](./TODO.md) for the short list of what is still open.
 
 ---
 
@@ -99,10 +99,7 @@ Keep alt text specific and descriptive (it helps SEO and accessibility), for exa
 
 ### A note on review structured data
 
-Fake review markup violates Google's guidelines and can get a site penalized. So star-rating structured data stays **off** until you add real reviews. To turn it on:
-
-1. Replace the placeholders in [`lib/reviews.ts`](./lib/reviews.ts) with genuine reviews (for example from your Google or Facebook page).
-2. Set `publishSchema: true` in that file.
+Fake review markup violates Google's guidelines and can get a site penalized, so everything in [`lib/reviews.ts`](./lib/reviews.ts) is real: six genuine Google reviews, plus the true overall rating (4.0 from 22 reviews) that powers the star rich result. If you ever add more, copy real reviews only, and keep `aggregate` in step with the live Google numbers.
 
 ---
 
